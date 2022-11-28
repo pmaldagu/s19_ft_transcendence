@@ -1,0 +1,150 @@
+/*/////////////////// NOUS /////////////////*/
+
+.full-chat-main-ctn {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(41,41,51);
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-main-ctn {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center; /*position horizontale */
+  align-items: center;  /*position verticale */
+}
+
+.chat-ctn {
+  width: 500px;
+  height: 700px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.493);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /*position verticale */
+  align-items: center;  /*position horizontale */
+  text-align: center;
+  padding: 20px;
+}
+
+.chat-title {
+margin-bottom: 10px;
+}
+
+.chat-extension-ctn {
+  width: 500px;
+  height: 800px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.493);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /*position verticale */
+  align-items: center;  /*position horizontale */
+  text-align: center;
+  padding: 20px;
+  margin-left: 10%;
+}
+
+/*/////////////////// NATHAN //////////////////*/
+.home-main-ctn {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+}
+
+.home-ctn {
+  width: 100%;
+  height: 100%;
+}
+
+/* .chat-ctn {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+} */
+
+.chat-new-dm-ctn {
+  width: 15%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #a8d6ab;
+  display: inline-flexbox;
+  padding: 1rem;
+  margin: auto;
+}
+
+.chat-channel-ctn {
+  width: 100%;
+  height: 100%;
+  margin-left: 10px;
+  margin-right: 25px;
+  border-radius: 10px;
+  background-color: #1f4e60;
+  display: inline-flexbox;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.clickable:hover {
+  cursor: pointer;
+  color: gray;
+}
+
+h2 {
+  text-align: center;
+}
+
+.textInput {
+  background-color: #F2F6D0;
+  border-width: 0px;
+  border-radius: 5px;
+  font-family: Courier New;
+  font-size: 15px;
+  height: 23px;
+}
+
+/* .smallButton {
+  cursor: pointer;
+  color: black;
+  height: 30px;
+  width: 75px;
+  font-size: 15px;
+  font-family: Courier New;
+  border: 1px solid black;
+  border-radius: 30px;
+} */
+
+.startDmButton {
+  cursor: pointer;
+  width: 50px;
+  height: 30px;
+  /* width: 75px; */
+  font-size: 15px;
+  font-family: Courier New;
+  border-radius: 30px;
+  border: 1px solid black;
+  color: black;
+  background-color: transparent;
+}
+
+.startChannelButton {
+  cursor: pointer;
+  width: 70px;
+  height: 30px;
+  /* width: 75px; */
+  font-size: 15px;
+  font-family: Courier New;
+  border-radius: 30px;
+  border: 1px solid black;
+  color: black;
+  background-color: transparent;
+}
+
